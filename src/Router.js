@@ -7,7 +7,7 @@ import {
 function router() {
 	return ( 
 		<Router>
-			<Route / >
+			<Route / > 
 		</Router>
 	)
 }
