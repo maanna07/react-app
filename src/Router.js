@@ -1,15 +1,12 @@
 import React from 'react'
 import List from './pages/list'
 import {
-	BrowserRouter as Router,
-	Route
+	BrowserRouter as Router
 } from "react-router-dom";
 
-function router() {
+function routes() {
 	return ( 
-		<Router>
-			<Route path="list" component={() => <List/>}/ > 
-		</Router>
-	);
+		<Router path="list" component={() => <List/>}/ > 
+	)
 }
-export default router;
+export default routes
